@@ -25,4 +25,28 @@ An experimental discharge test was conducted on a lithium-ion cell, and the meas
 
 ## 📂 Project Structure
 
-. ├── tpm_script.m # Script to run TPM-based simulation ├── spm_script.m # Script to run SPM-based simulation ├── spm_projectmod.slx # Simulink model for SPM ├── tpmsimulink0415.slx # Simulink model for TPM ├── battery_parameters.m # Initialization of all battery-related constants ├── README.md # Project documentation
+
+
+
+## 📈 Output
+
+The simulation outputs:
+- Time-series of surface concentrations for both electrodes
+- Voltage curves over time
+- (Optional) Animated visualization of internal diffusion
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/battery-simulation.git
+   cd battery-simulation
+2. Open MATLAB and add the folder to your path.
+3. Run either:
+    tpm_script.m for the Three Parameter Model
+    spm_script.m for the Single Particle Model
+4. View results in generated plots or within Simulink scopes.
+
+## 🧠 Credits
+
+Developed by Zeinab Ismail, Noah Rimatzki, Aryan Rose and Jingxuan Wang as part of an evaluative study on lithium-ion battery modeling at the University of Michigan.
